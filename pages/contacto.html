@@ -9,7 +9,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Oregon-Nosotros</title>
+    <title>Oregon-Contacto</title>
 </head>
 
 <body>
@@ -54,52 +54,58 @@
 
     <main>
 
-        <section class="container flex-column">
+        <section>
+            <div class="container">
+                <div class="row d-flex text-center justify-content-center align-items-center my-4">
+                    <div>
+                        <label for="nombre-usuario">Nombre y Apellido:</label>
+                        <input id="nombre-usuario" type="text">
+                    </div>
 
-            <div class="row">
+                    <div>
+                        <label for="correo-electronico">Correo Electrónico:</label>
+                        <input id="correo-electronico" type="email">
+                    </div>
 
-                <!---------Imagen Portada ------->
-                <div class="col-12 d-flex justify-content-center order-lg-1">
-                    <img class="img-fluid my-1" src="../img/img-empresa/bosque.jpg" alt="">
-                </div>
-                <div class="col-12 d-flex text-center order-lg-1">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate minus magnam
-                        atque at vitae, amet sequi quae asperiores consequuntur accusantium veniam earum facilis!
-                        Quibusdam dolores expedita necessitatibus dolorem praesentium iste!</p>
-                </div>
+                    <div>
+                        <label for="telefono">Teléfono:</label>
+                        <input id="telefono" type="tel">
+                    </div>
 
-                <div class="col-12 col-lg-6 d-flex justify-content-center order-lg-1">
-                    <img class="img-fluid my-1" src="../img/img-empresa/obrero.webp" alt="">
-                </div>
-                <div class="col-12 col-lg-6 d-flex text-center order-lg-2">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate minus magnam
-                        atque at vitae, amet sequi quae asperiores consequuntur accusantium veniam earum facilis!
-                        Quibusdam dolores expedita necessitatibus dolorem praesentium iste!</p>
-                </div>
+                    <div>
+                        <span>Género:</span>
+                        <label for="genero-hombre">Hombre</label>
+                        <input id="genero-hombre" type="radio" name="radio-genero" value="Hombre">
+                        <label for="genero-mujer">Mujer</label>
+                        <input id="genero-mujer" type="radio" name="radio-genero" value="Mujer">
+                        <label for="genero-no-binario">No Binario</label>
+                        <input id="genero-no-binario" type="radio" name="radio-genero" value="No Binario">
+                    </div>
 
-                <div class="col-12 col-lg-6 d-flex justify-content-center order-lg-1">
-                    <img class="img-fluid my-1" src="../img/img-empresa/sucursales.jpg" alt="">
-                </div>
-                <div class="col-12 col-lg-6 d-flex justify-content-center order-lg-2">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate minus magnam
-                        atque at vitae, amet sequi quae asperiores consequuntur accusantium veniam earum facilis!
-                        Quibusdam dolores expedita necessitatibus dolorem praesentium iste!</p>
-                </div>
+                    <div>
+                        <label for="asunto-mensaje">Seleccione el asunto:</label>
+                        <select class="btn btn-azul" name="asunto" id="asunto-mensaje">
+                            <option value="consulta">Consulta</option>
+                            <option value="reclamo">Reclamo</option>
+                            <option value="sugerencias">Sugerencias</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
 
-                <!-------- Texto Portada ------>
-                <div class="col-12 text-center text-lg-start my-4 col-lg-12">
-                    <h2 class="display-1 fw-bold">NUESTRA EMPRESA <span class="c-violeta">SE DESTACA</span></h2>
-                    <P class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio hic veniam modi saepe eum
-                        magnam repudiandae id voluptas velit maiores.</P>
+                    <div>
+                        <label for="mensaje-usuario">Mensaje:</label>
+                        <textarea id="mensaje-usuario" cols="40" rows="10"></textarea>
+                    </div>
+
+                    <div>
+                        <input class="btn btn-azul" type="submit" value="Enviar">
+                    </div>
                 </div>
 
             </div>
-
         </section>
 
-
-
-        <footer class="container-fluid bg-black c-blanco mt-4">
+        <footer class="container-fluid c-blanco mt-4">
 
             <div class="container">
 
@@ -108,7 +114,7 @@
 
                     <!--------- Info adicional --------->
                     <div class="col-12 col-lg-3 d-flex flex-column align-items-center p-4">
-                        <h2 class="display-4 fw-bold border-bottom">La Mueblería</h2>
+                        <img src="../img/Logo.png" class="w-50"></img>
                         <p>Ramiro Castro © 2023 - Todos los derechos reservados</p>
                         <span>ramirocastro@gmail.com</span>
                     </div>
