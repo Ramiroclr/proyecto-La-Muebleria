@@ -2,4 +2,99 @@
   margin: 0;
   padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
+
+.c-violeta {
+  color: whitesmoke;
+}
+
+.c-blanco {
+  color: white;
+  background-color: blueviolet;
+}
+
+body {
+  background-image: radial-gradient(orange, brown);
+}
+
+header {
+  background-image: linear-gradient(white);
+}
+
+.nav-link {
+  color: rgb(71, 5, 134);
+}
+
+.btn-azul {
+  background-color: #0e153a;
+  border: 2px solid #0e153a;
+  color: white;
+}
+.btn-azul:hover {
+  box-shadow: 10px 20px 10px;
+}
+
+.card {
+  border-radius: 20px;
+  border: 2px solid rgb(3, 1, 14);
+  background-color: whitesmoke;
+}
+.card:hover {
+  box-shadow: 10px 20px 10px;
+}
+
+footer {
+  background-image: linear-gradient(brown, rgb(162, 29, 29));
+}
+
+.card {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+.img {
+  border: 1px solid black;
+}
+
+.img {
+  width: 80em;
+  border: 2px solid black;
+}
+
+.card {
+  width: 18rem;
+}
+.card-body {
+  box-sizing: border-box;
+}
+.card-text {
+  color: rgb(81, 78, 78);
+  font-size: 1.2rem;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.card-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(216, 202, 202, 0.941);
+}
+.card-group-img {
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.label {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */

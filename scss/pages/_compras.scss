@@ -1,0 +1,12 @@
+.card-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(216, 202, 202, 0.941);
+
+    &-img{
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+}
